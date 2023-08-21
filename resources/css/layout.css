@@ -1339,7 +1339,7 @@ html.fp-enabled,
   position: relative;
   text-transform: uppercase;
   top: -40px;
-  opacity: 0;
+  /* opacity: 0; */
   transition: all 1s ease;
 }
 .lami .hmade .cont .inner .int {
@@ -1869,7 +1869,7 @@ html.fp-enabled,
   /* padding: 130px 0 100px 0; */
   color: #fff;
   /* background: url(../images/bg_correct1.jpg) center 0 no-repeat; */
-  background: #C3CED7;
+  background: #c3ced7;
   background-size: cover;
   visibility: hidden;
 }
