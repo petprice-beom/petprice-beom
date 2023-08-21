@@ -5,6 +5,51 @@
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0,minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+ 
+
+
+ 
+
+<link rel="shortcut icon" href="/images/favicon.ico" />
+		<link rel="apple-touch-icon" href="/images/favicon.png" />
+		<link rel="stylesheet" href="/common/css/common.css" />
+		<link rel="stylesheet" href="/common/css/swiper.min.css" />
+		<script
+			type="text/javascript"
+			src="/common/js/jquery-1.12.4.min.js"
+		></script>
+		<script type="text/javascript" src="/common/js/hoverIntent.js"></script>
+		<script type="text/javascript" src="/common/js/iscroll.js"></script>
+		<script type="text/javascript" src="/common/js/slick.min.js"></script>
+		<script type="text/javascript" src="/common/js/swiper.min.js"></script>
+		<script type="text/javascript" src="/common/js/front.js"></script>
+		<script type="text/javascript" src="/common/js/_basicFunction.js"></script>
+		<script type="text/javascript" src="/common/js/menu_action.js"></script>
+
+		<!-- main resource -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="/common/css/jquery.fullPage.css"
+		/>
+		<link rel="stylesheet" type="text/css" href="/common/css/main.css" />
+		<script type="text/javascript" src="/common/js/scrolloverflow.js"></script>
+		<script
+			type="text/javascript"
+			src="/common/js/jquery.fullpage.min.js"
+		></script>
+		<script type="text/javascript">
+			$(function () {
+				// 풀페이지 레이아웃 / 하단 배너
+				Gnt.mainFullPageLayout();
+				Gnt.bottomMainBanner();
+
+				// 보도자료
+				Gnt.reportMainScroll();
+			});
+		</script>
+
  <meta name="robots" content="all">
  <meta name="title" content="루시아치과">
  <meta name="keywords" content="루시아치과"/>
@@ -54,6 +99,7 @@
 <div id="browser" style="display:none;"><div class="infobox"><a href="#none" onclick="$('#browser').hide();$.cookie('browser', 'done', {expires:1});" title="브라우저 관련 팝업 닫기" class="brower_close" ><span>닫기</span></a>    <h2>브라우저를 <span>업그레이드</span> 해주세요</h2>        <p>본 사이트는 익스플로러11, 크롬, 파이어폭스 브라우저에 최적화 되어 있습니다. <br />지금 사용하고 계시는 브라우저는 곧 지원이 중단되므로<br />최신 버전으로 업그레이드하시거나 최신 브라우저를 이용해 주세요.</p><ul>	<li class="ie"><a href="http://windows.microsoft.com/ko-kr/internet-explorer/ie-11-worldwide-languages" target="_blank" title="새창이동"><span>인터넷익스플로러11</span></a></li><li class="ff"><a href="http://www.mozilla.or.kr/" target="_blank" title="새창이동"><span>파이어폭스</span></a></li><li class="cr"><a href="https://www.google.com/intl/ko/chrome/browser/" target="_blank" title="새창이동"><span>크롬</span></a></li></ul></div>
 </div>
 <![endif]-->
+
 </head>
 <body>
 	<div class="wrap">
@@ -67,12 +113,12 @@
 						<ul id="gnb" class="gnb abClear">
 							<li><a class="depth1 goLink active" href="../index.html">홈</a></li>
 							<li><a class="depth1" id="depth1_1" href="#section2">인사말</a></li>
-							<li><a class="depth1" id="depth1_2" href="#section3">라미네이트</a></li>
-							<li><a class="depth1" id="depth1_3" href="#section4">치아교정</a></li>
-							<li><a class="depth1" id="depth1_4" href="#section5">임플란트</a></li>
-							<li><a class="depth1" id="depth1_5" href="#section6">함께한 스타</a></li>
+							<li><a class="depth1" id="depth1_2" href="#section3">영상의학과</a></li>
+							<!-- <li><a class="depth1" id="depth1_4" href="#section5">임플란트</a></li> -->
+							<li><a class="depth1" id="depth1_5" href="#section6">의료진</a></li>
 							<li><a class="depth1" id="depth1_6" href="#section7">오시는길</a></li>
 							<li><a class="depth1" id="depth1_7" href="#section9">병원소개</a></li>
+							<li><a class="depth1" id="depth1_4" href="#section4">새로운 소식</a></li>
 						</ul>
 					</div>
 				</nav>
@@ -466,7 +512,7 @@
 				<!-- 교정 -->
 				<div class="section">
 					<div class="mcont correct">
-						<div class="mint" id="section4" >
+						<div class="mint" id="section0" >
 							<!-- <div class="inner">
 								<h2>
 									<div class="num">02</div>
@@ -1042,6 +1088,472 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- <div class="section" id="section4">
+					<div class="mcont inter">
+						<div class="cont">
+							<div class="inner">
+            <div id="section2" class="section">
+                <div class="innerContainer">
+                    <div id="main_cancer">
+                        <div class="play_mov">
+                            <div class="play_left">
+                                <iframe id="tviframe" width="100%" height="95%" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="play_right">
+                                <p class="tit"><img src="http://www.chungdamah.co.kr/theme/hp001/img/youtube_title.jpg"> <span>청담우리동물병원 유튜브</span></p>
+                                <h1 class="txt_title" id="tv_title"><span></span></h1>
+                                <p class="txt">반려동물에 대한 건강정보를 알려드립니다.</p>
+                                <a href="https://www.youtube.com/channel/UCrcOQ17ToaezHar5lp4iH6w" target="_blank">유튜브 채널로 이동 -</a>
+                            </div>
+                        </div>
+                        <div class="process">
+                            <ul id="tvList_link">
+                                <li class="tvList_li" id="tvList_li202662" seq="202662">
+                                    <div>
+                                        <ul>
+                                            <li class="tvList_li" id="tvList_li202662" seq="202662">
+                                                <a href="javascript:changeTv('202662');"><img src="http://www.chungdamah.co.kr/data/youtube/5?20230629140632"></a>
+                                                <input type="hidden" id="tvList_link202662" value="https://www.youtube.com/embed/VjWokaream0" >
+                                                <input type="hidden" id="tvList_title202662" value="강아지 입냄새 여러가지 원인! 치아 문제가 아닐 수 있어요" >
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="tvList_li" id="tvList_li202663" seq="202663">
+                                    <div>
+                                        <ul>
+                                            <li class="tvList_li" id="tvList_li202663" seq="202663">
+                                                <a href="javascript:changeTv('202663');"><img src="http://www.chungdamah.co.kr/data/youtube/4?20230629140524"></a>
+                                                <input type="hidden" id="tvList_link202663" value="https://www.youtube.com/embed/R7R7DNo_o64" >
+                                                <input type="hidden" id="tvList_title202663" value="슬개골탈구는 한국수의사만 수술하라고 한다?! 과연 진실은?" >
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="tvList_li" id="tvList_li202664" seq="202664">
+                                    <div>
+                                        <ul>
+                                            <li class="tvList_li" id="tvList_li202664" seq="202664">
+                                                <a href="javascript:changeTv('202664');"><img src="http://www.chungdamah.co.kr/data/youtube/3?20230629140610"></a>
+                                                <input type="hidden" id="tvList_link202664" value="https://www.youtube.com/embed//ILx01OZJ9Yg" >
+                                                <input type="hidden" id="tvList_title202664" value="꾸륵꾸륵 복명음 배탈이 잦다면 강아지 혈자리마사지! 소화잘됨주의!" >
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="tvList_li" id="tvList_li202665" seq="202665">
+                                    <div>
+                                        <ul>
+                                            <li class="tvList_li" id="tvList_li202665" seq="202665">
+                                                <a href="javascript:changeTv('202665');"><img src="http://www.chungdamah.co.kr/data/youtube/2?20230629140725"></a>
+                                                <input type="hidden" id="tvList_link202665" value="https://www.youtube.com/embed/ZHxOr4YaDHQ" >
+                                                <input type="hidden" id="tvList_title202665" value="무덥고 뜨거운 여름! 우리 강아지들 열사병 주의해주세요 산책할땐 꼭꼭 기억하기!" >
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="tvList_li" id="tvList_li202666" seq="202666">
+                                    <div>
+                                        <ul>
+                                            <li class="tvList_li" id="tvList_li202666" seq="202666">
+                                                <a href="javascript:changeTv('202666');"><img src="http://www.chungdamah.co.kr/data/youtube/1?20230629143212"></a>
+                                                <input type="hidden" id="tvList_link202666" value="https://www.youtube.com/embed/8ByA6k0o0J0" >
+                                                <input type="hidden" id="tvList_title202666" value="강아지 슬개골탈구 촉진 진단과정이 궁금하시죠? 다 보여드릴께요! 이거 정말 중요해요!" >
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <script>
+                $(document).ready(function() {
+                    var tmp = $("#tvList_link").find("ul>li").filter(':first-child').attr("seq");
+                    changeTv(tmp);
+                });
+    
+                function changeTv(seq){
+                    $("#tviframe").attr("src", $("#tvList_link"+seq).val());
+                    $("#tv_title").find("span").html($("#tvList_title"+seq).val());
+                    $(".tvList_li").removeClass("on");
+                    $("#tvList_li"+seq).addClass("on");
+                }
+            </script>
+
+							</div></div></div></div> -->
+
+						<div class="section" id="section4">
+					<div class="mcont inter">
+						<div class="cont">
+							<div class="inner">
+
+						<div class="mcdev_titlow">
+							<h3 class="mcdev_tit">새로운 소식</h3>
+						</div>
+						<div class="mcdev_contlow">
+							<div class="mcdev_both">
+								<div class="mcdev_cell mcdc01">
+									<div class="mcdc_titlow">
+										<p class="mcdc_tit">보도자료</p>
+										<a href="/" class="mcdc_tailmore f_more"
+											><span class="mcdc_tailmore_in">view more</span></a
+										>
+									</div>
+									<div class="mcdc_contlow has_mbscroll">
+										<div class="mclk_list_w">
+											<ul class="mclk_list">
+												<li>
+													<a
+														href="https://news.mt.co.kr/mtview.php?no=2023051115413860497"
+														class="mclk_item"
+													>
+														<!-- bg에 개발 연동 - nodata -->
+														<div
+															class="mclk_thum"
+															style="
+																background-image: url(/upload_files/board/news1.jpeg);
+															"
+														>
+															<img src="/images/main/mfban_ratio.png" alt="" />
+														</div>
+														<!-- // bg에 개발 연동 - nodata -->
+														<div class="mclk_spec">
+															<div class="mclk_spec01">
+																경인여대-인천SKY동물메디컬센터, 가족회사
+																업무협약 체결
+															</div>
+															<div class="mclk_spec02">
+																경인여자대학교 반려동물보건학과가 지난 9일
+																인천광역시 남동구에 위치한
+																인천SKY동물메디컬센터와 가족회사 업무협약을
+																체결했다고 11일 밝혔다. 이번 협약은 2021년 맺은
+																현장실습 및 취업 활성화를 위한 업무협약의 후속
+																조치다. 양 기관은 우수 동물보건사를 양성하기로
+																합의했으며, 인천SKY동물메디컬센터는 매년
+																경인여대 반려동물보건학과에 장학금을 기탁하기로
+																약속했다.
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<a
+														href="https://www.dailyvet.co.kr/news/industry/169938"
+														class="mclk_item"
+													>
+														<!-- bg에 개발 연동 - nodata -->
+														<div
+															class="mclk_thum"
+															style="
+																background-image: url(/upload_files/board/news2.png);
+															"
+														>
+															<img src="/images/main/mfban_ratio.png" alt="" />
+														</div>
+														<!-- // bg에 개발 연동 - nodata -->
+														<div class="mclk_spec">
+															<div class="mclk_spec01">
+																동물병원 얼라이언스 ‘코벳’ 정식 출범
+															</div>
+															<div class="mclk_spec02">
+																IT 기술을 더한 현장 수의사 중심 동물병원
+																네트워크 ‘코벳(COVET)’이 정식 출범했다. COVET은
+																Co-work와 Veterinarian의 합성어다.
+																코벳(www.co-vet.co.kr) 측은 “동물병원을 둘러싼
+																많은 환경이 변하고 있다”며 “변화에 빠르게 적응해
+																반려동물과 보호자분들에게 진보된 메디컬 서비스를
+																제공하고 함께하는 동물병원들의 원활한 운영을
+																위해 코벳을 시작했다”고 설명했다.
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<a
+														href="https://news.sktelecom.com/181576"
+														class="mclk_item"
+													>
+														<!-- bg에 개발 연동 - nodata -->
+														<div
+															class="mclk_thum"
+															style="
+																background-image: url(/upload_files/board/news3.jpeg);
+															"
+														>
+															<img src="/images/main/mfban_ratio.png" alt="" />
+														</div>
+														<!-- // bg에 개발 연동 - nodata -->
+														<div class="mclk_spec">
+															<div class="mclk_spec01">
+																SKT, AI기반 동물영상진단
+																보조서비스(‘엑스칼리버’)출시
+															</div>
+															<div class="mclk_spec02">
+																‘엑스칼리버’는 동물병원이 1개월 무상 사용 후 월
+																30만원의 구독형 서비스로 이용할 수 있다.
+																‘엑스칼리버’ 유통은 코벳(covet:동물병원
+																얼라이언스)이라는 MSO기업(병원경영지원회사,
+																Management Service Organization)이 담당한다.
+															</div>
+														</div>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								<div class="mcdev_cell mcdc02">
+									<div class="mcdc_titlow">
+										<p class="mcdc_tit">공지사항</p>
+									</div>
+									<div class="mcdc_contlow">
+										<!-- Slider main container -->
+										<div class="swiper-container mctxtban_w">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide">
+													<a
+														href="https://blog.naver.com/vetleader/222700600553"
+														class="mctxtban"
+														type="_blank"
+													>
+														<div class="mctxtban_in01">
+															스카이동물메디컬센터에서 퓨리나와 함께 유기동물
+															보호소에 사료를 기부 하였습니다.
+														</div>
+														<div class="mctxtban_in02">
+															<p style="text-align: left" align="center">
+																<span
+																	style="
+																		font-size: 12pt;
+																		font-family: '나눔고딕', NanumGothic;
+																	"
+																	>스카이동물메디컬그룹에서 인천시 수의사회 유기동물 보호소에 사료를 기부 하였습니다.</span
+																>
+															</p>
+
+
+															<div style="text-align: center;" align="center">
+																<a
+																	href="https://blog.naver.com/vetleader/222700600553"
+																	><img
+																		src="/upload_files/editor/noti3.jpeg"
+																		alt="" style="max-height: 150px; width: auto;" /></a
+																> 
+															</div>
+														</div>
+														<div class="mctxtban_in03">2022.04.14</div>
+													</a>
+												</div>
+												<div class="swiper-slide">
+													<a
+														href="https://blog.naver.com/vetleader/223014121805"
+														class="mctxtban"
+														type="_blank"
+
+													>
+														<div class="mctxtban_in01">
+															더 나은 진료를 위한 영상진단보조 AI - SK
+															엑스칼리버
+														</div>
+														<div class="mctxtban_in02">
+															<p style="text-align: left" align="center">
+
+																<span
+																	style="
+																		font-size: 12pt;
+																		font-family: '나눔고딕', NanumGothic;
+																	"
+																	>스카이동물메디컬그룹의 모든 동물병원은 더
+																	나은 진료를 위한 영상진단보조 AI 를
+																	도입하여</span
+																>
+															</p>
+															<div style="text-align: center;" align="center">
+																<a
+																	href="https://blog.naver.com/vetleader/223014121805"
+																	><img
+																		src="/upload_files/editor/noti2.jpeg"
+																	style="max-height: 150px; width: auto;"
+																		alt=""  /></a
+																> 
+															</div>
+														</div>
+														<div class="mctxtban_in03">2023.02.13</div>
+													</a>
+												</div>
+												<div class="swiper-slide">
+													<a
+														href="https://blog.naver.com/vetleader/222642391281"
+														class="mctxtban"
+														type="_blank"
+
+													>
+														<div class="mctxtban_in01">
+															SKT와 AI 기반 수의 영상 진단 보조 솔루션 개발을
+															위한 업무협약
+														</div>
+														<div class="mctxtban_in02">
+															<p style="text-align: left" align="center">
+																<span
+																	style="
+																		font-family: '나눔바른고딕',
+																			NanumBarunGothic;
+																		font-size: 12pt;
+																	"
+																	>SKT는 SKY동물메디컬그룹과 ‘AI기반 수의영상
+																	진단 보조 서비스 및 플랫폼 사업’을 위한
+																	업무협약도 체결했다.
+																</span>
+															</p>
+															<div style="text-align: center;" align="center">
+																<a
+																	href="https://blog.naver.com/vetleader/223014121805"
+																	>
+																<img
+																	src="/upload_files/editor/noti1.png"
+																	title="20230620162626583.png"
+																	alt=""
+																	style="max-height: 150px; width: auto;"
+																/>
+																</a>
+															</div>
+														</div>
+														<div class="mctxtban_in03">2022.02.08</div>
+													</a>
+												</div>
+											</div>
+											<!-- If we need pagination -->
+											<div class="swiper-pagination mctxtban_paging"></div>
+										</div>
+									</div>
+									<a href="/" class="mcdc_tailmore"
+										><span class="mcdc_tailmore_in">view more</span></a
+									>
+								</div>
+							</div>
+							<style>
+								.pcimg.else {
+									display: block;
+								}
+								@media (max-width: 1920px) {
+									.mcbotban_w > div:last-child {
+										margin-top: -2.76vw;
+									}
+								}
+								@media (max-width: 1023px) {
+									.pcimg_img {
+										display: none !important;
+									}
+								}
+								@media (min-width: 1921px) {
+									.pcimg.else {
+										display: block !important;
+									}
+									.mcbotban > img,
+									.resban_img_td > img {
+										width: 100%;
+									}
+									.resban_img_td > img {
+										margin-top: -7.8%;
+									}
+								}
+							</style>
+							<!-- <div class="mcbotban_z">
+								<div class="mcbotban_w">
+									<div class="mcbotban_cell">
+										<a
+											href="/"
+											class="mcbotban"
+										>
+											<img
+												src="/images/main/mcbot_ban01.png"
+												class="pcimg else"
+												alt=""
+											/>
+											<img
+												src="/images/main/mcbot_ban01_m.png"
+												class="mbimg"
+												alt=""
+											/>
+											<div class="resban_img_tb_w">
+												<div class="resban_img_tb">
+													<div class="resban_img_td resban_left">
+														<img
+															src="/images/main/high_mbotlab_01.png"
+															class="high_2k"
+															alt=""
+														/>
+														<img
+															src="/images/main/high_mbotlab_01_4k.png"
+															class="high_4k"
+															alt=""
+														/>
+													</div>
+													<div class="resban_img_td resban_right">
+														<img
+															src="/images/main/high_mbotimg_01.png"
+															class="high_2k"
+															alt=""
+														/>
+														<img
+															src="/images/main/high_mbotimg_01_4k.png"
+															class="high_4k"
+															alt=""
+														/>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="mcbotban_cell two">
+										<a
+											href="/"
+											class="mcbotban type2"
+										>
+											<img
+												src="/images/main/mcbot_ban02.png"
+												class="pcimg else"
+												alt=""
+											/>
+											<img
+												src="/images/main/mcbot_ban02_m.png"
+												class="mbimg"
+												alt=""
+											/>
+											<div class="resban_img_tb_w type2">
+												<div class="resban_img_tb">
+													<div class="resban_img_td resban_left">
+														<img
+															src="/images/main/high_mbotlab_02.png"
+															class="high_2k"
+															alt=""
+														/>
+														<img
+															src="/images/main/high_mbotlab_02_4k.png"
+															class="high_4k"
+															alt=""
+														/>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div> -->
+						</div>
+					</div>
+					</div>
+</div>
+</div>
+
+
+
 		<div id="footer">
 			<div class="inner abClear">
 				<div class="foot_left">
