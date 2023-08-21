@@ -5592,7 +5592,7 @@ html.fp-enabled,
 #section5 {
   position: relative;
   height: 850px;
-  background: #f5eae6;
+  background: #30536f;
 }
 #section5 > .innerContainer {
   position: relative;
@@ -5648,6 +5648,7 @@ html.fp-enabled,
 #section5 #main_cancer .play_mov .play_right .tit {
   color: #888888;
   font-size: 25px;
+  width: 100%;
 }
 #section5 #main_cancer .play_mov .play_right h1 {
   margin-top: 60px;
