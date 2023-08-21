@@ -5586,3 +5586,127 @@ html.fp-enabled,
 
 @media all and (max-width: 750px) {
 }
+
+/* 유튜브*/
+
+#section5 {
+  position: relative;
+  height: 850px;
+  background: #f5eae6;
+}
+#section5 > .innerContainer {
+  position: relative;
+  width: 1400px;
+  margin: auto;
+}
+#section5 > .innerContainer:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+#section5 .section-tit {
+  margin-bottom: 40px;
+  text-align: center;
+}
+#section5 .section-tit h2 {
+  font-family: "Nanum Myeongjo";
+  font-size: 30px;
+  font-weight: normal;
+  color: #989898;
+  margin-bottom: 5px;
+}
+#section5 .section-tit h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #cca865;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+#section5 .section-tit h3 span {
+  color: #25221d;
+}
+
+#section5 #main_cancer {
+  width: 100%;
+  position: relative;
+  padding-top: 120px;
+}
+#section5 #main_cancer .play_mov {
+  overflow: auto;
+}
+#section5 #main_cancer .play_mov .play_left {
+  float: left;
+  width: 50%;
+  height: 400px;
+}
+#section5 #main_cancer .play_mov .play_right {
+  float: right;
+  width: 50%;
+  height: 400px;
+  padding-left: 50px;
+}
+#section5 #main_cancer .play_mov .play_right .tit {
+  color: #888888;
+  font-size: 25px;
+}
+#section5 #main_cancer .play_mov .play_right h1 {
+  margin-top: 60px;
+  vertical-align: top;
+  font-size: 30px;
+  font-weight: normal;
+  color: #25221d;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  position: relative;
+}
+#section5 #main_cancer .play_mov .play_right .txt {
+  color: #888888;
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+#section5 #main_cancer .play_mov .play_right a {
+  font-size: 17px;
+  color: #ca2a25;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: 3px solid #ca2a25;
+  background: #fff;
+  margin-top: 35px;
+  display: block;
+  width: 260px;
+  text-align: center;
+}
+#section5 #main_cancer .play_mov .play_right a:hover {
+  color: #fff;
+  background: #ca2a25;
+}
+#section5 #main_cancer .process {
+  width: 100%;
+  vertical-align: top;
+  margin-top: 70px;
+}
+#section5 #main_cancer .process ul {
+  font-size: 0px;
+}
+#section5 #main_cancer .process ul li {
+  text-align: center;
+  display: inline-block;
+  width: 260px;
+  margin-right: 25px;
+}
+#section5 #main_cancer .process ul li:last-child {
+  margin-right: 0px;
+}
+#section5 #main_cancer .process ul li img {
+  width: 100%;
+}
+#section5 a {
+  font-family: "notokr", "Montserrat";
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  color: #666;
+  line-height: 1.4;
+  letter-spacing: -0.05em;
+}
