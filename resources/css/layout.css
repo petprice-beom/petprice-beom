@@ -1408,7 +1408,7 @@ html.fp-enabled,
   position: relative;
   padding: 100px 0;
   color: #fff;
-  background: url(../images/bg_lami2.jpg) center 0 no-repeat;
+  background: url(../images/스카이MRI.jpeg) center 0 no-repeat;
   background-size: cover;
 }
 .lami .step .inner .int {
@@ -1568,6 +1568,7 @@ html.fp-enabled,
   top: 0;
 }
 .bna .inner .tabArea {
+  /* max-width: 1200px; */
   width: 1200px;
   margin: 0 auto;
 }
@@ -1779,6 +1780,8 @@ html.fp-enabled,
 }
 .lami .cons .inner .consvs .img {
   position: relative;
+  width: 100%;
+  max-width: 500px;
 }
 .lami .cons .inner .consvs .img div {
   position: absolute;
@@ -5710,4 +5713,8 @@ html.fp-enabled,
   color: #666;
   line-height: 1.4;
   letter-spacing: -0.05em;
+}
+
+.goToYoutubeChannel {
+  max-width: 100px;
 }

@@ -356,8 +356,7 @@
 									</div>
 									<div class="swiper-button-next"></div>
 									<div class="swiper-button-prev"></div>
-								</div>
-								<script>
+																	<script>
 									$(function(){
 										if(!isWeb && isMobile){
 											var stepSwiper = new Swiper('.step-container', {
@@ -372,6 +371,8 @@
 									});
 											
 								</script>
+								</div>
+
 								<div class="stepDes">
 									영상진단과에서는 다양한 첨단 영상의학검사장비를 이용하여 질병을 정확하게
 									진단하는 것을 목표로 하며,
@@ -484,7 +485,7 @@
 									<div>SKY 동물메디컬센터는 <span>업계에서도 손꼽히는 영상의학검사장비</span>로 <div>환자분들과의 신뢰와 믿음을 지켜갑니다.</div></div>
 									<div class="consvs">
 										<div class="vsCont">
-											<div class="img"><img src="../resources/images/강아지진료_흑백.jpeg" style="height: 30em; width: 40em; border-radius: 50px;" /><div><strong>과거의</strong>동물진료</div></div>
+											<div class="img"><img src="../resources/images/강아지진료_흑백_2.jpg" style="border-radius: 500px;" /><div><strong>과거의</strong>동물진료</div></div>
 											<ul>
 												<li>문답을 통한 질병 유추</li>
 												<li>직접 환부를 만져가며 검진</li>
@@ -494,7 +495,7 @@
 										</div>
 										<div class="vs">V<span>S</span></div>
 										<div class="vsCont">
-											<div class="img"><img src="../resources/images/스카이MRI실.jpeg" style="height: 30em; width: 40em; border-radius: 50px;" /><div><strong>최첨단</strong>영상의학검사</div></div>
+											<div class="img"><img src="../resources/images/스카이MRI실.jpeg" style="border-radius: 500px;" /><div><strong>최첨단</strong>영상의학검사</div></div>
 											<ul>
 												<li>사람에게도 사용되는 첨단장비</li>
 												<li>수면 마취 등 안전한 검사 시스템</li>
@@ -1103,7 +1104,20 @@
                                 <p class="tit" style="display: flex; align-items: center;"><img src="../theme/hp001/img/youtube_title.jpg" style="width:18%"><span style="width: 5%"></span> <span>SKY동물메디컬센터 유튜브</span></p>
                                 <h1 class="txt_title" id="tv_title"><span></span></h1>
                                 <p class="txt">SKY동물메디컬센터를 구독하고 최신 정보를 받아보세요.</p>
-                                <a href="https://www.youtube.com/@skyskyamg8351" target="_blank">유튜브 채널로 이동</a>
+                                <a href="https://www.youtube.com/@skyskyamg8351" target="_blank" class="goToYoutubeChannel" >유튜브 채널로 이동</a>
+								<!-- <script>
+									var goToYoutubeChannel = document.getElementsByClassName("goToYoutubeChannel")
+									$(document).ready(function(){
+										if(!isWeb && isMobile){
+											goToYoutubeChannel.innerText = "순돌감자"
+											console.log("순돌감자")
+										} else {
+											goToYoutubeChannel.innerText = "유튜브 채널로 이동"
+
+										}
+										document.write(element.innerText);
+									});
+           						</script> -->
                             </div>
                         </div>
                         <div class="process">
