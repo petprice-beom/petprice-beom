@@ -895,13 +895,13 @@ html.mHidden {
   text-overflow: ellipsis;
 }
 
-@media (max-width: 1024px) { 
+@media (max-width: 1024px) {
   .mainContainer#vetMember,
   .mainContainer#notice {
     margin-top: 120px;
   }
 }
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   .mainContainer#vetMember ul,
   .mainContainer#notice ul {
     display: flex;
@@ -910,7 +910,6 @@ html.mHidden {
     align-items: center;
   }
 }
-
 
 #fullpage .section.fp-section.active.fp-completely .mcont {
 }
@@ -3144,6 +3143,7 @@ html.fp-enabled,
   margin: 0 auto;
 }
 .star .swiper-slide {
+  width: 100%;
 }
 .star .swiper-slide .img {
   -webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
@@ -3390,7 +3390,6 @@ html.fp-enabled,
     bottom: 10%;
     height: 90%;
     width: 90%;
-    
   }
   .vetPop .cont {
     flex-direction: column;
@@ -3453,7 +3452,7 @@ html.fp-enabled,
 }
 .docDetail-graduate > p {
   font-size: 16px;
-  padding-bottom: 5px; 
+  padding-bottom: 5px;
   font-weight: 550;
 }
 
@@ -5923,6 +5922,29 @@ html.fp-enabled,
 @media all and (max-width: 750px) {
 }
 
+#section5 #main_cancer .process > ul > li.tvList_li {
+  width: 19%;
+  margin-right: 5px;
+}
+#section5 #main_cancer .process ul li {
+  width: 100%;
+}
+
+#section5 #main_cancer {
+  width: 100%;
+  padding: 100px 0px 0px;
+}
+#section5 #main_cancer h1 {
+  width: 100%;
+}
+#section5 #main_cancer h1:before {
+  display: none;
+}
+#section5 #main_cancer .process {
+  width: 100%;
+  margin-right: 0px;
+}
+
 /* 유튜브*/
 
 #section5 {
@@ -6048,6 +6070,9 @@ html.fp-enabled,
   letter-spacing: -0.05em;
 }
 
-.goToYoutubeChannel {
-  max-width: 100px;
+@media screen and (max-width: 640px) {
+  #section5 #main_cancer .play_mov .play_left {
+    width: 100%;
+    height: 200px;
+  }
 }
