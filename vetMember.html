@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0,minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+  <title>:: SKY 동물메디컬센터 ::</title>
+
+  <link rel="shortcut icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" href="/images/favicon.png" />
+	<link rel="stylesheet" href="/common/css/common.css" />
+	<link rel="stylesheet" href="/common/css/swiper.min.css" />
+	<script
+		type="text/javascript"
+		src="/common/js/jquery-1.12.4.min.js"
+	></script>
+	<script type="text/javascript" src="/common/js/hoverIntent.js"></script>
+	<script type="text/javascript" src="/common/js/iscroll.js"></script>
+	<script type="text/javascript" src="/common/js/slick.min.js"></script>
+	<script type="text/javascript" src="/common/js/swiper.min.js"></script>
+	<script type="text/javascript" src="/common/js/front.js"></script>
+	<script type="text/javascript" src="/common/js/_basicFunction.js"></script>
+	<script type="text/javascript" src="/common/js/menu_action.js"></script>
+
+  <!-- main resource -->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="/common/css/jquery.fullPage.css"
+  />
+  <link rel="stylesheet" type="text/css" href="/common/css/main.css" />
+  <script type="text/javascript" src="/common/js/scrolloverflow.js"></script>
+  <script
+    type="text/javascript"
+    src="/common/js/jquery.fullpage.min.js"
+  ></script>
+  <script type="text/javascript">
+    $(function () {
+      // 풀페이지 레이아웃 / 하단 배너
+      Gnt.mainFullPageLayout();
+      Gnt.bottomMainBanner();
+
+      // 보도자료
+      Gnt.reportMainScroll();
+    });
+  </script>
+
+  <meta name="robots" content="all">
+  <meta name="title" content="SKY동물메디컬센터">
+  <meta name="keywords" content="SKY동물메디컬센터"/>
+  <meta name="subject" content="SKY동물메디컬센터">
+  <meta name="description" content="SKY동물메디컬센터 홈페이지 입니다." />
+  <meta name="author" content="SKY동물메디컬센터">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SKY동물메디컬센터">
+  <meta property="og:description" content="SKY동물메디컬센터 홈페이지 입니다.">
+  <meta property="og:image" content="http://www.luciadent.com/resources/images/logo.png">
+  <meta property="og:url" content="http://www.luciadent.com">
+  <link href="../resources/css/swiper.min.css" rel="stylesheet" type="text/css">
+  <link href="../resources/css/layout.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="../resources/js/jquery-1.12.4.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script type="text/javascript" src="../resources/js/cookie.js"></script>
+  <script type="text/javascript" src="../resources/js/swiper.js"></script>
+  <script type="text/javascript" src="../resources/js/common.js"></script>
+  <script type="text/javascript" src="../resources/js/main.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <!-- 헤더 -->
+		<div id="header">
+			<div class="headerInner">
+				<h1 class="logo"><a href="../index.html">SKY 동물메디컬센터</a></h1>
+				<a href="tel:025157177" class="headCall">전화상담</a>
+				<a href="http://pf.kakao.com/_dCwQT" target="_blank" class="headKa">카카오톡상담</a>
+				<nav id="navigation" class="navigation">
+					<div class="inner" >
+						<ul id="gnb" class="gnb abClear">
+							<li><a class="depth1 goLink active" href="./index.html">홈</a></li>
+						</ul>
+					</div>
+          <div id="pageTitle" class="pageTitle">
+              <h2>의료진 소개</h2>
+          </div>
+				</nav>
+			</div>
+		</div>
+		<!-- 메인 -->
+    <div id="vetMember" class="mainContainer">
+      <ul>
+        <a class="no-effect" href="javascript:vetPop();">
+          <li class="no-effect">
+            <div class="sWrap">
+              <img src="../resources/images/img_star_pop01.jpg" onerror="this.src='../resources/images/no-img.png';" />
+              <div class="vetName">대표원장 천우진</div>
+            </div>
+          </li>
+        </a>
+        <li>
+          <a href="javascript:vetPop(1);">
+            <div class="sWrap">
+              <img src="../resources/images/img_star_pop02.png"  onerror="this.src='../resources/images/no-img.png';"/>
+              <div class="vetName">대표원장 오이세</div>
+              <div class="overlay">자세히 보기</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:vetPop(2);">
+            <div class="sWrap">
+              <img src="../resources/images/doc_moonjongsun.png" onerror="this.src='../resources/images/no-img.png';" />
+              <div class="vetName">원장 문종선</div>
+              <div class="overlay">자세히 보기</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:vetPop(3);">
+            <div class="sWrap">
+              <img src="../resources/images/doc_7.png" onerror="this.src='../resources/images/no-img.png';" />
+              <div class="vetName">부원장 정다슬</div>
+              <div class="overlay">자세히 보기</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:vetPop(4);">
+            <div class="sWrap">
+              <img src="../resources/images/doc_kimdohee.png" onerror="this.src='../resources/images/no-img.png';" />
+              <div class="vetName">외과과장 김도희</div>
+              <div class="overlay">자세히 보기</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:vetPop(5);">
+            <div class="sWrap">
+              <img src="../resources/images/doc_choidongjun.png" onerror="this.src='../resources/images/no-img.png';" />
+              <div class="vetName">외과과장 최동준</div>
+              <div class="overlay">자세히 보기</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:vetPop(6);">
+            <div class="sWrap">
+              <img src="../resources/images/doc_parksulki.png" onerror="this.src='../resources/images/no-img.png';" />
+              <div class="vetName">내과과장 박설기</div>
+              <div class="overlay">자세히 보기</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:vetPop(7);">
+            <div class="sWrap">
+              <img src="../resources/images/doc_6.png" onerror="this.src='../resources/images/no-img.png';" />
+              <div class="vetName">영상의학과장 박주향</div>
+              <div class="overlay">자세히 보기</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:vetPop(8);">
+            <div class="sWrap">
+              <img src="../resources/images/doc_9.png" onerror="this.src='../resources/images/no-img.png';" />
+              <div class="vetName">진료과장 최유진</div>
+              <div class="overlay">자세히 보기</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:vetPop(9);">
+            <div class="sWrap">
+              <img src="../resources/images/doc_jeongtaegyu.png" onerror="this.src='../resources/images/no-img.png';" />
+              <div class="vetName">한방응급의학과장 정태규</div>
+              <div class="overlay">자세히 보기</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:vetPop(10);">
+            <div class="sWrap">
+              <img src="../resources/images/doc_yoongihong.png" onerror="this.src='../resources/images/no-img.png';" />
+              <div class="vetName">진료수의사 윤기홍</div>
+              <div class="overlay">자세히 보기</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:vetPop(11);">
+            <div class="sWrap">
+              <img src="../resources/images/doc_jangminhyuk.png" onerror="this.src='../resources/images/no-img.png';" />
+              <div class="vetName">진료수의사 장민혁</div>
+              <div class="overlay">자세히 보기</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:vetPop(12);">
+            <div class="sWrap">
+              <img src="../resources/images/doc_leesunback.png" onerror="this.src='../resources/images/no-img.png';" />
+              <div class="vetName">진료수의사 이선백</div>
+              <div class="overlay">자세히 보기</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:vetPop(13);">
+            <div class="sWrap">
+              <img src="../resources/images/doc_seoseungwon.png" onerror="this.src='../resources/images/no-img.png';" />
+              <div class="vetName">진료수의사 서승원</div>
+              <div class="overlay">자세히 보기</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:vetPop(14);">
+            <div class="sWrap">
+              <img src="../resources/images/doc_songjaeseong.png" onerror="this.src='../resources/images/no-img.png';" />
+              <div class="vetName">진료수의사 송재성</div>
+              <div class="overlay">자세히 보기</div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- 수의사 상세 팝업 -->
+    <div class="vetPop" id="vetPop1">
+      <div class="inner">
+        <h2>대표원장 오이세</h2>	
+        <div class="cont">
+          <div class="leftWrap"><img src="../resources/images/img_star_pop02.png"  onerror="this.src='../resources/images/no-img.png';"/></div>
+          <div class="rightWrap">
+            <div class="docDetail-bh">
+              <div class="bedge bedge-blue">약력</div>
+              <div class="docDetail-graduate">
+                <p>충남대학교 수의과대학 수의학과 졸업</p>
+                <p>충남대학교 수의과대학 대학원 석사 졸업 (영상의학전공)</p>
+                <p>충남대학교 수의과대학 대학원 박사과정 (영상의학전공)</p>
+                <p>충남대학교 수의과대학 부속동물병원 진료수의사</p>
+                <p>대전과학기술대학교 애완동물과 교수</p>
+                <p>서울 충현동물종합병원 영상과장</p>
+                <p>서울 충현동물종합병원 진료부장</p>
+                <p>서울 충현동물종합병원 부원장</p>
+                <p>현) 인천스카이동물의료센터 대표원장</p>
+              </div>
+            </div>
+            <div class="docDetail-study">
+              <div class="bedge bedge-blue">주요논문</div>
+              <div class="docDetail-eng">
+                <p class="dot-text1 fArial">[학술논문]컴퓨터단층촬영을 이용한 거대 낭포성 폐기종의 진단 3례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 복수의 평가에 있어서 필름-증감지 방사선 사진과 디지털 방사선 사진</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 비전형적 부신피질선종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 발생한 전반적 대뇌허혈</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 결장직장 선암종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]치와와견에서 발생한 원발성 Acalvaria 증례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 연부조직 섬유종 2례</p>
+                <p class="dot-text1 fArial">[학술논문]시츄견에서 발생한 간경화의 영상 진단</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 실험적으로 유발한 흉수의 정량 평가</p>
+                <p class="dot-text1 fArial">[학술논문]개의 복강내 잔존 수술용 거즈 2예</p>
+                <p class="dot-text1 fArial">[학술논문]고양이에서의 선천성 요추 기형의 평가</p>
+                <p class="dot-text1 fArial">[학술논문]말티즈 견에서 발생한 골육증</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 자기공명영상을 이용한 뇌수두증과 척수공동증 진단</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 컴퓨터단층촬영술을 이용한 창상성 두개강 내 출혈의 진단</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="javascript:vetPopClose(1);" class="close">닫기</a>
+      </div>
+    </div>
+    <div class="vetPop" id="vetPop2">
+      <div class="inner">
+        <h2>원장 문종선</h2>	
+        <div class="cont">
+          <div class="leftWrap"><img src="../resources/images/doc_moonjongsun.png"  onerror="this.src='../resources/images/no-img.png';"/></div>
+          <div class="rightWrap">
+            <div class="docDetail-bh">
+              <div class="bedge bedge-blue">약력</div>
+              <div class="docDetail-graduate">
+                <p>전북대학교 수의과대학 수의학과 졸업</p>
+                <p>이천시청,성남시청 공중방역수의사</p>
+                <p>우리아이동물메디컬센터진료수의사</p>
+                <p>부천SKY동물메디컬센터 진료수의사</p>
+                <p>서울 신사SKY동물메디컬센터 선임 진료수의사</p>
+                <p>서울 신사SKY동물메디컬센터 진료과장</p>
+                <p>전)인천SKY동물의료센터 부원장</p>
+                <p>전)계양SKY동물의료센터 원장</p>
+                <p>현)인천SKY동물메디컬센터 원장</p>
+                <p>한국고양이수의사회 정회원</p>
+              </div>
+              <p class="dot-text1 fArial">CVA(미국수의한방침치료과정인증) 수료</p>
+            </div>
+            <!-- <div class="docDetail-study">
+              <div class="bedge bedge-blue">주요논문</div>
+              <div class="docDetail-eng">
+                <p class="dot-text1 fArial">[학술논문]컴퓨터단층촬영을 이용한 거대 낭포성 폐기종의 진단 3례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 복수의 평가에 있어서 필름-증감지 방사선 사진과 디지털 방사선 사진</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 비전형적 부신피질선종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 발생한 전반적 대뇌허혈</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 결장직장 선암종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]치와와견에서 발생한 원발성 Acalvaria 증례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 연부조직 섬유종 2례</p>
+                <p class="dot-text1 fArial">[학술논문]시츄견에서 발생한 간경화의 영상 진단</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 실험적으로 유발한 흉수의 정량 평가</p>
+                <p class="dot-text1 fArial">[학술논문]개의 복강내 잔존 수술용 거즈 2예</p>
+                <p class="dot-text1 fArial">[학술논문]고양이에서의 선천성 요추 기형의 평가</p>
+                <p class="dot-text1 fArial">[학술논문]말티즈 견에서 발생한 골육증</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 자기공명영상을 이용한 뇌수두증과 척수공동증 진단</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 컴퓨터단층촬영술을 이용한 창상성 두개강 내 출혈의 진단</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <a href="javascript:vetPopClose(2);" class="close">닫기</a>
+      </div>
+    </div>
+    <div class="vetPop" id="vetPop3">
+      <div class="inner">
+        <h2>부원장 정다슬</h2>	
+        <div class="cont">
+          <div class="leftWrap"><img src="../resources/images/doc_7.png"  onerror="this.src='../resources/images/no-img.png';"/></div>
+          <div class="rightWrap">
+            <div class="docDetail-bh">
+              <div class="bedge bedge-blue">약력</div>
+              <div class="docDetail-graduate">
+                <p>건국대학교 수의과대학 수의학과 졸업</p>
+                <p>수원SKY동물메디컬센터 진료수의사</p>
+                <p>인천SKY동물메디컬센터 진료수의사</p>
+                <p>인천SKY동물메디컬센터 진료과장</p>
+                <p>현)인천SKY동물메디컬센터 부원장</p>
+              </div>
+            </div>
+            <!-- <div class="docDetail-study">
+              <div class="bedge bedge-blue">주요논문</div>
+              <div class="docDetail-eng">
+                <p class="dot-text1 fArial">[학술논문]컴퓨터단층촬영을 이용한 거대 낭포성 폐기종의 진단 3례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 복수의 평가에 있어서 필름-증감지 방사선 사진과 디지털 방사선 사진</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 비전형적 부신피질선종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 발생한 전반적 대뇌허혈</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 결장직장 선암종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]치와와견에서 발생한 원발성 Acalvaria 증례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 연부조직 섬유종 2례</p>
+                <p class="dot-text1 fArial">[학술논문]시츄견에서 발생한 간경화의 영상 진단</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 실험적으로 유발한 흉수의 정량 평가</p>
+                <p class="dot-text1 fArial">[학술논문]개의 복강내 잔존 수술용 거즈 2예</p>
+                <p class="dot-text1 fArial">[학술논문]고양이에서의 선천성 요추 기형의 평가</p>
+                <p class="dot-text1 fArial">[학술논문]말티즈 견에서 발생한 골육증</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 자기공명영상을 이용한 뇌수두증과 척수공동증 진단</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 컴퓨터단층촬영술을 이용한 창상성 두개강 내 출혈의 진단</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <a href="javascript:vetPopClose(3);" class="close">닫기</a>
+      </div>
+    </div>
+    <div class="vetPop" id="vetPop4">
+      <div class="inner">
+        <h2>외과과장 김도희</h2>	
+        <div class="cont">
+          <div class="leftWrap"><img src="../resources/images/doc_kimdohee.png"  onerror="this.src='../resources/images/no-img.png';"/></div>
+          <div class="rightWrap">
+            <div class="docDetail-bh">
+              <div class="bedge bedge-blue">약력</div>
+              <div class="docDetail-graduate">
+                <p>건국대학교 수의과대학 수의학과 졸업</p>
+                <p>건국대학교 수의과대학 수의외과학 석박사통합과정 수료</p>
+                <p>건국대학교 수의과대학 부속동물병원 진료수의사</p>
+                <p>건국대학교 수의과대학 외과실습 조교</p>
+                <p>현)인천SKY동물메디컬센터 외과과장</p>
+              </div>
+            </div>
+            <!-- <div class="docDetail-study">
+              <div class="bedge bedge-blue">주요논문</div>
+              <div class="docDetail-eng">
+                <p class="dot-text1 fArial">[학술논문]컴퓨터단층촬영을 이용한 거대 낭포성 폐기종의 진단 3례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 복수의 평가에 있어서 필름-증감지 방사선 사진과 디지털 방사선 사진</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 비전형적 부신피질선종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 발생한 전반적 대뇌허혈</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 결장직장 선암종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]치와와견에서 발생한 원발성 Acalvaria 증례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 연부조직 섬유종 2례</p>
+                <p class="dot-text1 fArial">[학술논문]시츄견에서 발생한 간경화의 영상 진단</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 실험적으로 유발한 흉수의 정량 평가</p>
+                <p class="dot-text1 fArial">[학술논문]개의 복강내 잔존 수술용 거즈 2예</p>
+                <p class="dot-text1 fArial">[학술논문]고양이에서의 선천성 요추 기형의 평가</p>
+                <p class="dot-text1 fArial">[학술논문]말티즈 견에서 발생한 골육증</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 자기공명영상을 이용한 뇌수두증과 척수공동증 진단</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 컴퓨터단층촬영술을 이용한 창상성 두개강 내 출혈의 진단</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <a href="javascript:vetPopClose(4);" class="close">닫기</a>
+      </div>
+    </div>
+    <div class="vetPop" id="vetPop5">
+      <div class="inner">
+        <h2>외과과장 최동준</h2>	
+        <div class="cont">
+          <div class="leftWrap"><img src="../resources/images/doc_choidongjun.png"  onerror="this.src='../resources/images/no-img.png';"/></div>
+          <div class="rightWrap">
+            <div class="docDetail-bh">
+              <div class="bedge bedge-blue">약력</div>
+              <div class="docDetail-graduate">
+                <p>경북대학교 수의과대학 졸업</p>
+                <p>해마루 2차진료 동물병원 진료수의사</p>
+                <p>건국대학교 수의외과학 석사 수료</p>
+                <p>건국대학교 부속동물병원 외과 진료수의사</p>
+                <p>건국대학교 수의학부 수의외과학 조교</p>
+                <p>현)인천SKY동물메디컬센터 외과과장</p>
+              </div>
+              <p class="dot-text1 fArial">AOVET Principle in small animal management course</p>
+              <p class="dot-text1 fArial">SACEC DFO Seminar 수료</p>
+            </div>
+            <!-- <div class="docDetail-study">
+              <div class="bedge bedge-blue">주요논문</div>
+              <div class="docDetail-eng">
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <a href="javascript:vetPopClose(5);" class="close">닫기</a>
+      </div>
+    </div>
+    <div class="vetPop" id="vetPop6">
+      <div class="inner">
+        <h2>내과과장 박설기</h2>	
+        <div class="cont">
+          <div class="leftWrap"><img src="../resources/images/doc_parksulki.png"  onerror="this.src='../resources/images/no-img.png';"/></div>
+          <div class="rightWrap">
+            <div class="docDetail-bh">
+              <div class="bedge bedge-blue">약력</div>
+              <div class="docDetail-graduate">
+                <p>경상대학교 수의학과 학사 졸업</p>
+                <p>서울대학교 수의과대학 부속 동물병원 수련과정 수료</p>
+                <p>서울대학교 수의과대학 내과학교실 실습조교</p>
+                <p>서울대학교 수의과대학 수의내과학 석사 졸업</p>
+                <p>우리동물메디컬센터 내과과장</p>
+                <p>2018.05 한국임상수의학회 춘계학술대회 구두발표</p>
+                <p>2019.06 ISSCR in LA 참가</p>
+                <p>2019.09 FASAVA in tokyo 참가</p>
+                <p>2019 해마루 심장초음파 wet lab 수료</p>
+                <p>2020 수의한방 침술사 자격증(CVA) 취득</p>
+              </div>
+            </div>
+            <div class="docDetail-study">
+              <div class="bedge bedge-blue">주요논문</div>
+              <div class="docDetail-eng">
+                <p class="dot-text1 fArial">Pretreatment with IFN-γ enhances the immunomodulatory effect of feline adipose tissue-derived mesenchymal stem cells through the COX-2/PGE2 pathway</p>
+                <p class="dot-text1 fArial">Case of babesiosis induced thrombocytopenia in a dog.</p>
+                <p class="dot-text1 fArial">Clinical application of both amniotic membranes and adipose derived mesenchymal stem cells in a cat with large skin defect</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="javascript:vetPopClose(6);" class="close">닫기</a>
+      </div>
+    </div>
+    <div class="vetPop" id="vetPop7">
+      <div class="inner">
+        <h2>영상의학과장 박주향</h2>	
+        <div class="cont">
+          <div class="leftWrap"><img src="../resources/images/doc_6.png"  onerror="this.src='../resources/images/no-img.png';"/></div>
+          <div class="rightWrap">
+            <div class="docDetail-bh">
+              <div class="bedge bedge-blue">약력</div>
+              <div class="docDetail-graduate">
+                <p>경북대학교 수의과대학 수의과대학 졸업</p>
+                <p>경북대학교 수의과대학 대학원 석사 졸업 (수의영상의학 전공)</p>
+                <p>경북대학교 부속동물병원 수련수의사</p>
+                <p>경북대학교 수의과대학 수의영상의학 조교</p>
+                <p>대구광역시 초등학교 동물보호교육 강사</p>
+                <p>현) 인천스카이동물의료센터 영상과장</p>
+              </div>
+              <p class="dot-text1 fArial">2018 미국 텍사스 International Veterinary Radiology Association 참가 및 포스터 발표</p>
+              <p class="dot-text1 fArial">2018-2019 서울시수의사회 학술지 VETIS 연재</p>
+              <p class="dot-text1 fArial">2018-2019 한국임상수의학회 참석</p>
+              <p class="dot-text1 fArial">2019 한국수의영상의학연구회 참가 및 feline alimentary lymphoma case 구두 발표</p>
+              <p class="dot-text1 fArial">2019 미국 아리조나 American College of Veterinary Internal Medicine Forum 참석</p>
+            </div>
+            <div class="docDetail-study">
+              <div class="bedge bedge-blue">주요논문</div>
+              <div class="docDetail-eng">
+                <p class="dot-text1 fArial">Diagnosis of mammary carcinoma in a castrated male Maltese dog. Journal of Veterinary Clinics (2019)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="javascript:vetPopClose(7);" class="close">닫기</a>
+      </div>
+    </div>
+    <div class="vetPop" id="vetPop8">
+      <div class="inner">
+        <h2>진료과장 최유진</h2>	
+        <div class="cont">
+          <div class="leftWrap"><img src="../resources/images/doc_9.png"  onerror="this.src='../resources/images/no-img.png';"/></div>
+          <div class="rightWrap">
+            <div class="docDetail-bh">
+              <div class="bedge bedge-blue">약력</div>
+              <div class="docDetail-graduate">
+                <p>충북대학교 수의과대학 수의학과 졸업</p>
+                <p>충북대학교 수의과대학 수의생화학실험실</p>
+                <p>충북대학교 수의과대학 부속동물병원 동물병원 임상실습 수료</p>
+                <p>인천SKY동물메디컬센터 진료수의사</p>
+                <p>현)인천SKY동물메디컬센터 진료과장</p>
+              </div>
+            </div>
+            <!-- <div class="docDetail-study">
+              <div class="bedge bedge-blue">주요논문</div>
+              <div class="docDetail-eng">
+                <p class="dot-text1 fArial">[학술논문]컴퓨터단층촬영을 이용한 거대 낭포성 폐기종의 진단 3례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 복수의 평가에 있어서 필름-증감지 방사선 사진과 디지털 방사선 사진</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 비전형적 부신피질선종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 발생한 전반적 대뇌허혈</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 결장직장 선암종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]치와와견에서 발생한 원발성 Acalvaria 증례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 연부조직 섬유종 2례</p>
+                <p class="dot-text1 fArial">[학술논문]시츄견에서 발생한 간경화의 영상 진단</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 실험적으로 유발한 흉수의 정량 평가</p>
+                <p class="dot-text1 fArial">[학술논문]개의 복강내 잔존 수술용 거즈 2예</p>
+                <p class="dot-text1 fArial">[학술논문]고양이에서의 선천성 요추 기형의 평가</p>
+                <p class="dot-text1 fArial">[학술논문]말티즈 견에서 발생한 골육증</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 자기공명영상을 이용한 뇌수두증과 척수공동증 진단</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 컴퓨터단층촬영술을 이용한 창상성 두개강 내 출혈의 진단</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <a href="javascript:vetPopClose(8);" class="close">닫기</a>
+      </div>
+    </div>
+    <div class="vetPop" id="vetPop9">
+      <div class="inner">
+        <h2>한방응급의학과장 정태규</h2>	
+        <div class="cont">
+          <div class="leftWrap"><img src="../resources/images/doc_jeongtaegyu.png"  onerror="this.src='../resources/images/no-img.png';"/></div>
+          <div class="rightWrap">
+            <div class="docDetail-bh">
+              <div class="bedge bedge-blue">약력</div>
+              <div class="docDetail-graduate">
+                <p>서울대학교 수의과대학 수의학과 졸업</p>
+                <p>서울대학교 수의과대학 임상수의학 응급의학과 석사졸업</p>
+                <p>서울대학교 동물병원 진료수의사</p>
+                <p>서울대학교 수의학과 수의응급의학과 실습조교</p>
+                <p>관악구 이로동물병원 진료수의사</p>
+                <p>수원 24시바른동물의료센터 응급의학과장</p>
+                <p>현)인천SKY동물메디컬센터 한방응급의학과장</p>
+              </div>
+              <p class="dot-text1 fArial">CVA(미국수의한방침치료인증) 수료</p>
+            </div>
+            <!-- <div class="docDetail-study">
+              <div class="bedge bedge-blue">주요논문</div>
+              <div class="docDetail-eng">
+                <p class="dot-text1 fArial">[학술논문]컴퓨터단층촬영을 이용한 거대 낭포성 폐기종의 진단 3례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 복수의 평가에 있어서 필름-증감지 방사선 사진과 디지털 방사선 사진</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 비전형적 부신피질선종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 발생한 전반적 대뇌허혈</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 결장직장 선암종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]치와와견에서 발생한 원발성 Acalvaria 증례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 연부조직 섬유종 2례</p>
+                <p class="dot-text1 fArial">[학술논문]시츄견에서 발생한 간경화의 영상 진단</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 실험적으로 유발한 흉수의 정량 평가</p>
+                <p class="dot-text1 fArial">[학술논문]개의 복강내 잔존 수술용 거즈 2예</p>
+                <p class="dot-text1 fArial">[학술논문]고양이에서의 선천성 요추 기형의 평가</p>
+                <p class="dot-text1 fArial">[학술논문]말티즈 견에서 발생한 골육증</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 자기공명영상을 이용한 뇌수두증과 척수공동증 진단</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 컴퓨터단층촬영술을 이용한 창상성 두개강 내 출혈의 진단</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <a href="javascript:vetPopClose(9);" class="close">닫기</a>
+      </div>
+    </div>
+    <div class="vetPop" id="vetPop10">
+      <div class="inner">
+        <h2>진료수의사 윤기홍</h2>	
+        <div class="cont">
+          <div class="leftWrap"><img src="../resources/images/doc_yoongihong.png"  onerror="this.src='../resources/images/no-img.png';"/></div>
+          <div class="rightWrap">
+            <div class="docDetail-bh">
+              <div class="bedge bedge-blue">약력</div>
+              <div class="docDetail-graduate">
+                <p>경상대학교 수의학과 졸업</p>
+                <p>전) (주)CRONEX 책임 연구수의사</p>
+                <p>전) 24시 대전성심동물메디컬센터 진료수의사</p>
+                <p>현) SKY동물메디컬센터 인천점 진료수의사</p>
+              </div>
+            </div>
+            <!-- <div class="docDetail-study">
+              <div class="bedge bedge-blue">주요논문</div>
+              <div class="docDetail-eng">
+                <p class="dot-text1 fArial">[학술논문]컴퓨터단층촬영을 이용한 거대 낭포성 폐기종의 진단 3례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 복수의 평가에 있어서 필름-증감지 방사선 사진과 디지털 방사선 사진</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 비전형적 부신피질선종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 발생한 전반적 대뇌허혈</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 결장직장 선암종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]치와와견에서 발생한 원발성 Acalvaria 증례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 연부조직 섬유종 2례</p>
+                <p class="dot-text1 fArial">[학술논문]시츄견에서 발생한 간경화의 영상 진단</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 실험적으로 유발한 흉수의 정량 평가</p>
+                <p class="dot-text1 fArial">[학술논문]개의 복강내 잔존 수술용 거즈 2예</p>
+                <p class="dot-text1 fArial">[학술논문]고양이에서의 선천성 요추 기형의 평가</p>
+                <p class="dot-text1 fArial">[학술논문]말티즈 견에서 발생한 골육증</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 자기공명영상을 이용한 뇌수두증과 척수공동증 진단</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 컴퓨터단층촬영술을 이용한 창상성 두개강 내 출혈의 진단</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <a href="javascript:vetPopClose(10);" class="close">닫기</a>
+      </div>
+    </div>
+    <div class="vetPop" id="vetPop11">
+      <div class="inner">
+        <h2>진료수의사 장민혁</h2>	
+        <div class="cont">
+          <div class="leftWrap"><img src="../resources/images/doc_jangminhyuk.png"  onerror="this.src='../resources/images/no-img.png';"/></div>
+          <div class="rightWrap">
+            <div class="docDetail-bh">
+              <div class="bedge bedge-blue">약력</div>
+              <div class="docDetail-graduate">
+                <p>건국대학교 수의학과 학사 졸업</p>
+                <p>전) 계양스카이동물병원 인턴수의사</p>
+                <p>전) 건국대학교부속동물병원 내과 계약직 수의사</p>
+                <p>전) 우리들동물병원 진료과장</p>
+                <p>현) 인천스카이동물병원 진료수의사</p>
+              </div>
+            </div>
+            <!-- <div class="docDetail-study">
+              <div class="bedge bedge-blue">주요논문</div>
+              <div class="docDetail-eng">
+                <p class="dot-text1 fArial">[학술논문]컴퓨터단층촬영을 이용한 거대 낭포성 폐기종의 진단 3례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 복수의 평가에 있어서 필름-증감지 방사선 사진과 디지털 방사선 사진</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 비전형적 부신피질선종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 발생한 전반적 대뇌허혈</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 결장직장 선암종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]치와와견에서 발생한 원발성 Acalvaria 증례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 연부조직 섬유종 2례</p>
+                <p class="dot-text1 fArial">[학술논문]시츄견에서 발생한 간경화의 영상 진단</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 실험적으로 유발한 흉수의 정량 평가</p>
+                <p class="dot-text1 fArial">[학술논문]개의 복강내 잔존 수술용 거즈 2예</p>
+                <p class="dot-text1 fArial">[학술논문]고양이에서의 선천성 요추 기형의 평가</p>
+                <p class="dot-text1 fArial">[학술논문]말티즈 견에서 발생한 골육증</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 자기공명영상을 이용한 뇌수두증과 척수공동증 진단</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 컴퓨터단층촬영술을 이용한 창상성 두개강 내 출혈의 진단</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <a href="javascript:vetPopClose(11);" class="close">닫기</a>
+      </div>
+    </div>
+    <div class="vetPop" id="vetPop12">
+      <div class="inner">
+        <h2>진료수의사 이선백</h2>	
+        <div class="cont">
+          <div class="leftWrap"><img src="../resources/images/doc_leesunback.png"  onerror="this.src='../resources/images/no-img.png';"/></div>
+          <div class="rightWrap">
+            <div class="docDetail-bh">
+              <div class="bedge bedge-blue">약력</div>
+              <div class="docDetail-graduate">
+                <p>건국대학교 수의과대학 졸업</p>
+                <p>경기도북부동물위생연구소 공중방역수의사</p>
+                <p>베링거인겔하임 기술지원수의사</p>
+                <p>현)인천SKY동물메디컬센터 진료수의사</p>
+              </div>
+            </div>
+            <!-- <div class="docDetail-study">
+              <div class="bedge bedge-blue">주요논문</div>
+              <div class="docDetail-eng">
+                <p class="dot-text1 fArial">[학술논문]컴퓨터단층촬영을 이용한 거대 낭포성 폐기종의 진단 3례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 복수의 평가에 있어서 필름-증감지 방사선 사진과 디지털 방사선 사진</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 비전형적 부신피질선종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 발생한 전반적 대뇌허혈</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 결장직장 선암종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]치와와견에서 발생한 원발성 Acalvaria 증례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 연부조직 섬유종 2례</p>
+                <p class="dot-text1 fArial">[학술논문]시츄견에서 발생한 간경화의 영상 진단</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 실험적으로 유발한 흉수의 정량 평가</p>
+                <p class="dot-text1 fArial">[학술논문]개의 복강내 잔존 수술용 거즈 2예</p>
+                <p class="dot-text1 fArial">[학술논문]고양이에서의 선천성 요추 기형의 평가</p>
+                <p class="dot-text1 fArial">[학술논문]말티즈 견에서 발생한 골육증</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 자기공명영상을 이용한 뇌수두증과 척수공동증 진단</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 컴퓨터단층촬영술을 이용한 창상성 두개강 내 출혈의 진단</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <a href="javascript:vetPopClose(12);" class="close">닫기</a>
+      </div>
+    </div>
+    <div class="vetPop" id="vetPop13">
+      <div class="inner">
+        <h2>진료수의사 서승원</h2>	
+        <div class="cont">
+          <div class="leftWrap"><img src="../resources/images/doc_seoseungwon.png"  onerror="this.src='../resources/images/no-img.png';"/></div>
+          <div class="rightWrap">
+            <div class="docDetail-bh">
+              <div class="bedge bedge-blue">약력</div>
+              <div class="docDetail-graduate">
+                <p>경상대학교 수의과대학 졸업</p>
+                <p>충청남도 홍성군청 공중방역수의사</p>
+                <p>부평종합동물의료센터 진료수의사</p>
+                <p>계양SKY동물의료센터 진료수의사</p>
+                <p>현)인천SKY동물메디컬센터 진료수의사</p>
+              </div>
+              <p class="dot-text1 fArial">베터플릭스 복부&amp;심장 초음파 과정 수료</p>
+              <p class="dot-text1 fArial">웨스턴동물의료센터 종합임상수의학과정 수료</p>
+            </div>
+            <!-- <div class="docDetail-study">
+              <div class="bedge bedge-blue">주요논문</div>
+              <div class="docDetail-eng">
+                <p class="dot-text1 fArial">[학술논문]컴퓨터단층촬영을 이용한 거대 낭포성 폐기종의 진단 3례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 복수의 평가에 있어서 필름-증감지 방사선 사진과 디지털 방사선 사진</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 비전형적 부신피질선종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 발생한 전반적 대뇌허혈</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 결장직장 선암종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]치와와견에서 발생한 원발성 Acalvaria 증례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 연부조직 섬유종 2례</p>
+                <p class="dot-text1 fArial">[학술논문]시츄견에서 발생한 간경화의 영상 진단</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 실험적으로 유발한 흉수의 정량 평가</p>
+                <p class="dot-text1 fArial">[학술논문]개의 복강내 잔존 수술용 거즈 2예</p>
+                <p class="dot-text1 fArial">[학술논문]고양이에서의 선천성 요추 기형의 평가</p>
+                <p class="dot-text1 fArial">[학술논문]말티즈 견에서 발생한 골육증</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 자기공명영상을 이용한 뇌수두증과 척수공동증 진단</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 컴퓨터단층촬영술을 이용한 창상성 두개강 내 출혈의 진단</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <a href="javascript:vetPopClose(13);" class="close">닫기</a>
+      </div>
+    </div>
+    <div class="vetPop" id="vetPop14">
+      <div class="inner">
+        <h2>진료수의사 송재성</h2>	
+        <div class="cont">
+          <div class="leftWrap"><img src="../resources/images/doc_songjaeseong.png"  onerror="this.src='../resources/images/no-img.png';"/></div>
+          <div class="rightWrap">
+            <div class="docDetail-bh">
+              <div class="bedge bedge-blue">약력</div>
+              <div class="docDetail-graduate">
+                <p>건국대학교 수의과대학 졸업</p>
+                <p>건국대학교 임상로테이션 수료</p>
+                <p>인천 보건환경연구원 공중방역수의사</p>
+                <p>인천광역시 동물보호공무원</p>
+                <p>현)인천SKY동물메디컬센터 진료수의사</p>
+              </div>
+              <p class="dot-text1 fArial">해마루동물병원 임상수의사 기초과정 수료</p>
+              <p class="dot-text1 fArial">웨스턴동물의료센터종합임상수의학과장 수료</p>
+            </div>
+            <!-- <div class="docDetail-study">
+              <div class="bedge bedge-blue">주요논문</div>
+              <div class="docDetail-eng">
+                <p class="dot-text1 fArial">[학술논문]컴퓨터단층촬영을 이용한 거대 낭포성 폐기종의 진단 3례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 복수의 평가에 있어서 필름-증감지 방사선 사진과 디지털 방사선 사진</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 비전형적 부신피질선종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 발생한 전반적 대뇌허혈</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 결장직장 선암종 1례</p>
+                <p class="dot-text1 fArial">[학술논문]치와와견에서 발생한 원발성 Acalvaria 증례</p>
+                <p class="dot-text1 fArial">[학술논문]개에서 발생한 연부조직 섬유종 2례</p>
+                <p class="dot-text1 fArial">[학술논문]시츄견에서 발생한 간경화의 영상 진단</p>
+                <p class="dot-text1 fArial">[학술논문]비글견에서 실험적으로 유발한 흉수의 정량 평가</p>
+                <p class="dot-text1 fArial">[학술논문]개의 복강내 잔존 수술용 거즈 2예</p>
+                <p class="dot-text1 fArial">[학술논문]고양이에서의 선천성 요추 기형의 평가</p>
+                <p class="dot-text1 fArial">[학술논문]말티즈 견에서 발생한 골육증</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 자기공명영상을 이용한 뇌수두증과 척수공동증 진단</p>
+                <p class="dot-text1 fArial">[동향·연구보고서]개에서 컴퓨터단층촬영술을 이용한 창상성 두개강 내 출혈의 진단</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <a href="javascript:vetPopClose(14);" class="close">닫기</a>
+      </div>
+    </div>
+</body>
+</html>
