@@ -3384,14 +3384,16 @@ html.fp-enabled,
 }
 
 @media screen and (max-width: 768px) {
-  .vetPop .inner {
+  .vetPop .inner,
+  .noticePop .inner {
     position: absolute;
     top: 5%;
     bottom: 10%;
     height: 90%;
     width: 90%;
   }
-  .vetPop .cont {
+  .vetPop .cont,
+  .noticePop .cont {
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
@@ -3402,12 +3404,17 @@ html.fp-enabled,
     /* float: left; */
     min-width: 200px;
   }
-  .vetPop .cont .rightWrap {
+  .noticePop .cont .leftWrap {
+    width: 100%;
+  }
+  .vetPop .cont .rightWrap,
+  .noticePop .cont .rightWrap {
     overflow-y: auto;
     width: 100%;
     overflow: unset;
   }
-  .vetPop h2 {
+  .vetPop h2,
+  .noticePop h2 {
     font-size: 20px;
   }
 }
